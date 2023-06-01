@@ -1,0 +1,47 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #333333;
+    color: aliceblue;
+}
+header h1{
+    text-align: center;
+    color: aliceblue;
+}
+section{
+    background-color: rgb(45, 170, 170);
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section h2{
+    color: aliceblue;
+    margin: auto;
+} 
+section input{
+   margin-bottom: 8px;
+} 
+button{
+    color:aliceblue;
+    background-color: blue;
+    border: 0px;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+input{
+    border: 0px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+#logo{
+    padding: 20px;
+}
+p{
+    font-size: 25px;
+}
