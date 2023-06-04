@@ -16,19 +16,18 @@
     <section>
         <div>
             <h2>Qual tabuada você deseja saber a tabuada</h2>
-            <input type="number"> 
+            <input type="number" id="primeironum"> 
         </div> <br>
         <div>
             <h2>Até que número você quer?</h2>
-            <input type="number">
+            <input type="number" id="segundonum">
         </div>
-        <button>Calcular</button>  
-        <p>Preencha os valores acima!</p>      
+        
+        <button onclick="tabuada()">Calcular</button>    
+        <div id="resposta">
+            Preencha os valores acima!
+        </div>
     </section>
-
-    <div id="tabuada">
-
-    </div>
-    
+    <script src="tabuada.js"></script>    
 </body>
 </html>
